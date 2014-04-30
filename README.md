@@ -1,13 +1,15 @@
+# Developing for XMC2Go on Debian Unstable
+
 This repository is for software-development for the XMC2Go development 
 board by Infineon with Debian unstable (x64).
 
-Details: www.infineon.com/xmc-dev
-Order number: KIT_XMC_2GO_XMC1100_V1
-MC: xmc1100-0064
+Details: www.infineon.com/xmc-dev \n
+Order number: KIT_XMC_2GO_XMC1100_V1 \n
+MC: xmc1100-0064 \n
 
 ----------------------------------------------------
 
-To start development, first install JLink
+To start development, first install JLink \n
 JLink is used to flash, erase, .., and communicate with the XMC1100 via USB
 
 -- Download jlink_4.84.5_x86_64.deb
