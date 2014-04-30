@@ -18,4 +18,9 @@ Scroll down and download "Software and documentation pack for Linux V4.84e, DEB 
 Go to /home/Download
 dpkg -i jlink_4.84.5_x86_64.deb
 
+Run JLink
+JLinkExe -device xmc1100-0064 -speed 4000
 
+use "erase" to delete flash memory
+use "loadbin xxx.bin 0x10001000" to load a program into flash memory 
+use "g" to start the program
